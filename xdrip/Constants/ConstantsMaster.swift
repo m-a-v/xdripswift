@@ -8,7 +8,7 @@ enum ConstantsMaster {
     // this will only be relevant for active sensors that hold a sensorAge value
 
     /// warm-up time considered for all sensors/transmitters after starting (enforced globally by the app)
-    static let minimumSensorWarmUpRequiredInMinutes = 45.0
+    static let minimumSensorWarmUpRequiredInMinutes = 10.0
     
     /// warm-up time enfoced by the Dexcom G6 transmitter. In this case, this will actually only be used for the UI to show when the sensor is reading.
     static let minimumSensorWarmUpRequiredInMinutesDexcomG5G6 = 120.0
